@@ -1,0 +1,18 @@
+note: 'MIND Small'
+
+data_params:
+  mind_path: ../data/mind-small
+  batch_size: 8
+  seed: 1
+
+module_params:
+  lr: 1.1e-5
+  weight_decay: 0.
+
+trainer_params:
+  epochs: 16
+  precision: 16
+  gpus: -1
+  val_check_interval: 0.2
+  weights_save_path: /root/autodl-tmp/nrms-bert-master/exper
+  accumulate_grad_batches: 4
