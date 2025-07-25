@@ -1,4 +1,4 @@
-# PvP: Probing Varied Viewpoints for Personalized News Recommendation [cite: 1]
+# PvP: Probing Varied Viewpoints for Personalized News Recommendation
 ## 🚀 Getting Started
 
 1.  **Clone the repository**
